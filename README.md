@@ -49,3 +49,32 @@ This R implementation of a Partitioned Survival Model (PSM) evaluates the cost-e
 - PD utility: 0.321
 - AE disutilities
 
+## Results
+### Base Case Analysis
+- **Incremental QALYs**: 0.977
+- **Incremental Cost**: $1,131
+- **ICER**: $11,582/QALY
+- **WTP Threshold**: $35,007/QALY (3× China GDP per capita)
+
+### Key Findings
+Gumarontinib demonstrates cost-effectiveness compared to savolitinib, with ICER below the willingness-to-pay threshold.
+
+## Uncertainty Analysis
+### Deterministic Sensitivity Analysis
+- Tornado diagrams for parameter impact assessment
+- Key drivers: Drug costs and utility values
+
+### Probabilistic Sensitivity Analysis
+- 1,000 Monte Carlo simulations
+- Cost-effectiveness acceptability curves
+- Around 60.2% probability of cost-effectiveness at WTP threshold
+
+### Scenario Analyses
+- Dosage adjustment scenarios
+- Alternative time horizons
+- Parametric distribution variations
+
+## Getting Started
+### Prerequisites
+```r
+install.packages(c("readxl", "dplyr", "scales", "reshape2", "ggplot2"))
