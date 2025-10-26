@@ -75,6 +75,8 @@ Gumarontinib demonstrates cost-effectiveness compared to savolitinib, with ICER 
 - Parametric distribution variations
 
 ## Getting Started
-### Prerequisites
+### Prerequisites and datasets
 ```r
 install.packages(c("readxl", "dplyr", "scales", "reshape2", "ggplot2"))
+- <a href="https://https://github.com/Sakshammehta1101/R-model-using-Partition-survival-structure/blob/main/R_PSM_model_codes.R">R_model_code_file</a>
+- <a href="https://github.com/Sakshammehta1101/R-model-using-Partition-survival-structure/blob/main/R_PSM_Model_Input_Sheet.xlsx">R_PSM_input_sheet</a>
